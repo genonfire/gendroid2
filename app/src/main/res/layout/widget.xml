@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:padding="2dp"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/GendroidWidget" >
+    
+    <TextView 
+        android:id="@+id/widget_title"
+        android:text="@string/loading"
+        android:textSize="13dip"         
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#ff000000"
+        android:gravity="center">
+    </TextView>
+    <TextView 
+        android:id="@+id/widget_dday"
+        android:textSize="18dip"
+        android:maxLines="1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#ff000000">
+    </TextView>
+    
+</LinearLayout>

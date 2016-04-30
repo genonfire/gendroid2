@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_general">              
+        <CheckBoxPreference 
+        android:key="use_password"
+        android:title="@string/pref_use_password"
+        android:summary="@string/pref_use_password_detail"
+        android:defaultValue="false" 
+        />
+        
+        <EditTextPreference
+        android:key="password"
+        android:title="@string/pref_password"
+        android:inputType="textPassword"
+        android:maxLength="32"        
+        />
+        
+        <CheckBoxPreference 
+        android:key="use_oneday"
+        android:title="@string/pref_use_oneday"
+        android:summary="@string/pref_use_oneday_detail"
+        android:defaultValue="false" 
+        />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_widget">
+        <CheckBoxPreference 
+        android:key="refresh_on_click"
+        android:title="@string/pref_refresh_on_click"
+        android:summary="@string/pref_refresh_on_click_detail"
+        android:defaultValue="false" 
+        />
+        
+        <ListPreference
+        android:key="tap_behavior"
+        android:title="@string/pref_tap_behavior"
+        android:summary="@string/pref_tap_behavior_detail"
+        android:entries="@array/entries_tap_behavior"
+        android:entryValues="@array/entries_tap_behavior"
+        android:dialogTitle="@string/pref_tap_behavior"
+        />
+        
+        <ListPreference
+        android:key="font_color"
+        android:title="@string/pref_font_color"
+        android:summary="@string/pref_font_color_detail"
+        android:entries="@array/entries_font_color"
+        android:entryValues="@array/entries_font_color"
+        android:dialogTitle="@string/pref_font_color"
+        />
+    </PreferenceCategory>
+        
+</PreferenceScreen>

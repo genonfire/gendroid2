@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="20dip"
+        android:paddingLeft="20dip"
+        android:paddingBottom="10dip"
+        android:gravity="center_vertical"
+	    >
+
+        <ImageButton android:id="@+id/icon_default" style="@style/icon.default" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_1" style="@style/icon.1" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_2" style="@style/icon.2" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_3" style="@style/icon.3" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_4" style="@style/icon.4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dip"
+        android:paddingLeft="20dip"
+        android:paddingBottom="20dip"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton android:id="@+id/icon_5" style="@style/icon.5" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_6" style="@style/icon.6" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_7" style="@style/icon.7" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_8" style="@style/icon.8" android:layout_marginRight="10dip" />
+        <ImageButton android:id="@+id/icon_9" style="@style/icon.9" />
+
+    </LinearLayout>
+
+</LinearLayout>

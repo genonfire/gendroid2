@@ -1,0 +1,78 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light">
+    <!-- Customize your theme here. -->
+    </style>
+    <style name="icon">
+        <item name="android:background">@drawable/icon_bg</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+    </style>
+    <style name="icon_trans">
+        <item name="android:background">@drawable/icon_bg_trans</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+    </style>
+   
+    <style name="icon.default">
+        <item name="android:src">@drawable/item_icon_default</item>
+    </style>
+    <style name="icon_trans.default">
+        <item name="android:src">@drawable/item_icon_default</item>
+    </style>
+
+    <style name="icon.1">
+        <item name="android:src">@drawable/item_icon_1</item>
+    </style>
+    <style name="icon_trans.1">
+        <item name="android:src">@drawable/item_icon_1</item>
+    </style>
+    <style name="icon.2">
+        <item name="android:src">@drawable/item_icon_2</item>
+    </style>
+    <style name="icon_trans.2">
+        <item name="android:src">@drawable/item_icon_2</item>
+    </style>
+    <style name="icon.3">
+        <item name="android:src">@drawable/item_icon_3</item>
+    </style>
+    <style name="icon_trans.3">
+        <item name="android:src">@drawable/item_icon_3</item>
+    </style>
+    <style name="icon.4">
+        <item name="android:src">@drawable/item_icon_4</item>
+    </style>
+    <style name="icon_trans.4">
+        <item name="android:src">@drawable/item_icon_4</item>
+    </style>
+    <style name="icon.5">
+        <item name="android:src">@drawable/item_icon_5</item>
+    </style>
+    <style name="icon_trans.5">
+        <item name="android:src">@drawable/item_icon_5</item>
+    </style>
+    <style name="icon.6">
+        <item name="android:src">@drawable/item_icon_6</item>
+    </style>
+    <style name="icon_trans.6">
+        <item name="android:src">@drawable/item_icon_6</item>
+    </style>
+    <style name="icon.7">
+        <item name="android:src">@drawable/item_icon_7</item>
+    </style>
+    <style name="icon_trans.7">
+        <item name="android:src">@drawable/item_icon_7</item>
+    </style>
+    <style name="icon.8">
+        <item name="android:src">@drawable/item_icon_8</item>
+    </style>
+    <style name="icon_trans.8">
+        <item name="android:src">@drawable/item_icon_8</item>
+    </style>
+    <style name="icon.9">
+        <item name="android:src">@drawable/item_icon_9</item>
+    </style>
+    <style name="icon_trans.9">
+        <item name="android:src">@drawable/item_icon_9</item>
+    </style>
+</resources>
